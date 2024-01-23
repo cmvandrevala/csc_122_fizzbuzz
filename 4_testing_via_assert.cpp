@@ -2,7 +2,8 @@
 #include <cassert>
 #include "fizzbuzz.hpp"
 
-int main() {
+int main()
+{
   assert("1" == fizzbuzz(1));
   assert("2" == fizzbuzz(2));
   assert("fizz" == fizzbuzz(3));
