@@ -42,6 +42,7 @@ In this iteration, we test the code manually via a driver program. The program p
 In this step, we print many outputs of our fizz buzz function to the console rather than inputting values one by one via a driver function. This allows us to test a number of cases in an automated fashion rather than inputting them one by one. However, the comparison of the calculated values with the theoretical correct values is still done manually.
 
 * What is the difference between manual and automated testing?
+* How do you know what test cases to write? How might you use the ZOMBIES acronym?
 
 ### 3. Testing Via Cout (Improved)
 

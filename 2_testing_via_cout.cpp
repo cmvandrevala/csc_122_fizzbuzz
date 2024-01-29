@@ -1,7 +1,9 @@
 #include <iostream>
 #include "fizzbuzz.hpp"
 
-int main() {
+int main()
+{
+  std::cout << fizzbuzz(0) << std::endl;
   std::cout << fizzbuzz(1) << std::endl;
   std::cout << fizzbuzz(2) << std::endl;
   std::cout << fizzbuzz(3) << std::endl;

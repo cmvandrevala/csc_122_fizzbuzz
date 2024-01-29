@@ -1,7 +1,9 @@
 #include <iostream>
 #include "fizzbuzz.hpp"
 
-int main() {
+int main()
+{
+  std::cout << "The output for 0 is " << fizzbuzz(0) << std::endl;
   std::cout << "The output for 1 is " << fizzbuzz(1) << std::endl;
   std::cout << "The output for 2 is " << fizzbuzz(2) << std::endl;
   std::cout << "The output for 3 is " << fizzbuzz(3) << std::endl;
